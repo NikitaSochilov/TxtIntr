@@ -1,0 +1,64 @@
+# .gitignore для C++ проекта
+
+# Скомпилированные файлы
+*.o
+*.a
+*.so
+*.dll
+*.exp
+*.lib
+
+# Исполняемые файлы
+*.exe
+*.out
+
+# Папки сборки
+build/
+cmake-build-debug/
+cmake-build-release/
+x64/Release/
+x64/Debug/
+
+# Файлы зависимостей
+*.d
+
+# Временные файлы
+*.swp
+*.bak
+*~
+
+# Файлы Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.suo
+*.sdf
+*.log
+*.pdb
+
+# Другие файлы IDE
+*.project
+*.classpath
+*.settings
+*.iml
+*.ipr
+*.iws
+*.idea
+*.pyc
+*.pyo
+*.cache
+*.egg-info
+
+# Сгенерированные файлы
+*.html
+*.css
+*.js
+*.png
+*.jpg
+*.gif
+*.svg
+*.json
+
+# Документация
+docs/
